@@ -21,10 +21,10 @@ public class Logic {
 		Data myDataX = new Data();
 		Data myDataY = new Data();
 
-		dataX = myInputX.readData("test1_xData.txt");
+		dataX = myInputX.readData("test2_xData.txt");
 		arrDataX = myDataX.saveData(dataX);
 
-		dataY = myInputY.readData("test1_yData.txt");
+		dataY = myInputY.readData("test2_yData.txt");
 		arrDataY = myDataY.saveData(dataY);
 
 		Rangos myRangos = new Rangos(arrDataX, arrDataY);
